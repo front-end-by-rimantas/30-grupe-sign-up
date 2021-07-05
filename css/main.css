@@ -1,25 +1,33 @@
 body {
+  background-color: #44b2c8;
 }
 
 .container {
   display: inline-block;
   width: 800px;
+  margin-top: 150px;
+  margin-left: calc(50% - 400px);
 }
 
 .left-column {
   width: 40%;
   float: left;
-  background-color: yellow;
+  padding: 40px;
+  padding-bottom: 20px;
+  background-color: #3f52b2;
+  color: #fff;
+}
+
+h1 {
+}
+
+a {
+  color: #fff;
 }
 
 .right-column {
   width: 60%;
   float: left;
-  background-color: violet;
-}
-
-.button {
-  display: inline-block;
-  background-color: red;
-  padding: 20px;
+  padding: 60px;
+  background-color: #fff;
 }
