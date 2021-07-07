@@ -21,7 +21,10 @@ body {
 h1 {
 }
 
-a {
+.bottom-texts {
+}
+
+.bottom-texts > a {
   color: #fff;
 }
 
@@ -30,4 +33,7 @@ a {
   float: left;
   padding: 60px;
   background-color: #fff;
+}
+
+.close {
 }
