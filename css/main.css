@@ -15,13 +15,19 @@ body {
   padding: 40px;
   padding-bottom: 20px;
   background-color: #3f52b2;
+  background-image: url(../img/hill.jpg);
+  background-size: cover;
+  background-position: center;
   color: #fff;
 }
 
 h1 {
 }
 
-a {
+.bottom-texts {
+}
+
+.bottom-texts > a {
   color: #fff;
 }
 
@@ -30,4 +36,7 @@ a {
   float: left;
   padding: 60px;
   background-color: #fff;
+}
+
+.close {
 }
